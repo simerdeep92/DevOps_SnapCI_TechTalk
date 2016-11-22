@@ -1,6 +1,7 @@
 ##Snap CI
 
 Arpita Awasthi 
+
 Simerdeep Singh Jolly
 
 <br/>Snap CI is a hosted continuous integration and continuous delivery services from ThoughtWorks.
