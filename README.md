@@ -1,5 +1,12 @@
-# DevOps_SnapCI_TechTalk
+##Snap CI
+
+Arpita Awasthi 
+Simerdeep Singh Jolly
+
 <br/>Snap CI is a hosted continuous integration and continuous delivery services from ThoughtWorks.
+
+Presentation - [link](https://drive.google.com/file/d/0ByVTfdDN4Ne_MXNmYzlGY0Fiem8/view?ts=58347c6c)
+Screencast - [link](https://drive.google.com/file/d/0B4s9cWAWOC29bWZtd1gwQUYyWWc/view?usp=sharing)
 
 ###Snap CI capabilities:
 * Automatic test parallelization
@@ -35,7 +42,4 @@ npm test
 
 ![Deploy](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk/blob/master/Images/deploy.JPG)
 
-
-###Screencast 
-[Link](https://drive.google.com/file/d/0B4s9cWAWOC29bWZtd1gwQUYyWWc/view?usp=sharing)
 
