@@ -41,4 +41,16 @@ npm test
 
 ![Deploy](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk/blob/master/Images/deploy.JPG)
 
+### Comparison with Jenkins
+|             Jenkins                               |                    Snap CI                        |
+|---------------------------------------------------| --------------------------------------------------- 
+| Hosted internally                                 |               Cloud Based                         |      
+| Free open source                                  |               Free for 30 days                    |
+| Great to build, deploy or launch anything async   |     Easy Installations and  simple management |
+| Rich set of plugins with good documentation       |           Automatic Github branch tracking
+| Tons of integrations                              |         Integration with Github, Heroku, AWS|
+| Has support for build pipelines                   |       Multi Stage Pipelines|
+| Open source and tons of integrations              |    Debugging mode while building and deployment|
+
+
 
