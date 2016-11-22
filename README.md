@@ -2,16 +2,13 @@
 <br/>Snap CI is a hosted continuous integration and continuous delivery services from ThoughtWorks.
 
 ###Snap CI capabilities:
-* Progressively test and get feedback across the full deployment pipeline
-* Run tests in parallel
-* Immediately debug a failed stage
-* Support for Ruby, Javascript, Java, Docker, Python etc.  
-* Build on CentOS or Ubuntu
-* First-class customer support team
-* Full sudo capability offers users the ability to create their own environments
-* Closely integrated to GitHub workflow
-* Easy deployment with Heroku and AWS
-* Clean User Interface
+* Automatic test parallelization
+* Immediate Debugging
+* Seamless Github Integration
+* Automatic Branch Tracking
+* Pull-Request Integration
+* Reliable Deployments
+* Stage History
 
 ### Getting Started with SnapCI
 #### Sign up 
