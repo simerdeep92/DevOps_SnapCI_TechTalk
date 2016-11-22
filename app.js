@@ -6,6 +6,6 @@ app.get('/', function(req, res){
     res.send('Hello World');
 });
 
-var server = app.listen(3000, function(){
-    console.log('Magic is happening on port 8080');
+var server = app.listen(process.env.PORT || 3000, function(){
+    console.log('Magic is happening on port 3000');
 });
