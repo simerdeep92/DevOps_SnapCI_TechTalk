@@ -32,9 +32,11 @@ sudo npm install -g mocha --save-dev
 npm install
 npm test
 </code></pre>
-![Test]()
+
+![Test](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk/blob/master/Images/teststage.JPG)
 * For deployment Go to Heroku website sign in/up to the account and create a new app. Add a new stage in Snap CI pipeline named Deploy. Enter Heroku credentials and select the heroku app you want to deploy to.
-![Deploy]()
+
+![Deploy](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk/blob/master/Images/deploy.JPG)
 
 
 Screencast 
