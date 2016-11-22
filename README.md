@@ -18,7 +18,7 @@ When you sign in, GitHub will ask if you want to give a set of permissions to Sn
 #### Configuring Build 
 When you select a repository to build on Snap, we will attempt to automatically detect some popular configurations for your build. We look for languages versions, build tools files, dependency managers and other conventions that may indicate how your build could be set up.
 
-A sample [Hello-World]() nodejs app which displays Hello World is created. The [test file]() consists of simple test cases. Testing is done using mocha. The pipeline run the test cases and passes or fails depending on the test results.
+A sample [Hello-World](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk/blob/master/app.js) nodejs app which displays Hello World is created. The [test file](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk/blob/master/test/test.js) consists of simple test cases. Testing is done using mocha. The pipeline run the test cases and passes or fails depending on the test results.
 
 Below are the steps to configure for a nodejs app. The pipeline consists of 2 stages - Testing and Deployment.
 
