@@ -4,7 +4,7 @@
 ####Simerdeep Singh Jolly
 <br/>Snap CI is a hosted continuous integration and continuous delivery services from ThoughtWorks.
 
-####Presentation - [link](https://drive.google.com/file/d/0ByVTfdDN4Ne_MXNmYzlGY0Fiem8/view?ts=58347c6c)
+####Presentation - [link](https://docs.google.com/presentation/d/1ekykpxVtZFB47vipbAEqH8b1nS_TC6tdUHHFi8S-zqQ/edit?ts=58348909#slide=id.p3)
 ####Screencast - [link](https://drive.google.com/file/d/0B4s9cWAWOC29bWZtd1gwQUYyWWc/view?usp=sharing)
 
 ###Snap CI capabilities:
