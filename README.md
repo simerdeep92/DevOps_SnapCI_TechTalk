@@ -52,5 +52,9 @@ npm test
 | Has support for build pipelines                   |       Multi Stage Pipelines|
 | Open source and tons of integrations              |    Debugging mode while building and deployment|
 
-
-
+### Limitations 
+* Not open source.
+* Easy to use but less integration capabilities than Jenkins
+* Only integrated with Github.
+* Deployment limited to AWS and Heroku.
+* No IDE Plugins available.
