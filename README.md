@@ -1,17 +1,20 @@
-# DevOps_SnapCI_TechTalk
+##Snap CI
+
+####Arpita Awasthi 
+####Simerdeep Singh Jolly
 <br/>Snap CI is a hosted continuous integration and continuous delivery services from ThoughtWorks.
 
+####Presentation - [link](https://docs.google.com/presentation/d/1ekykpxVtZFB47vipbAEqH8b1nS_TC6tdUHHFi8S-zqQ/edit?ts=58348909#slide=id.p3)
+####Screencast - [link](https://drive.google.com/file/d/0B4s9cWAWOC29bWZtd1gwQUYyWWc/view?usp=sharing)
+
 ###Snap CI capabilities:
-* Progressively test and get feedback across the full deployment pipeline
-* Run tests in parallel
-* Immediately debug a failed stage
-* Support for Ruby, Javascript, Java, Docker, Python etc.  
-* Build on CentOS or Ubuntu
-* First-class customer support team
-* Full sudo capability offers users the ability to create their own environments
-* Closely integrated to GitHub workflow
-* Easy deployment with Heroku and AWS
-* Clean User Interface
+* Automatic test parallelization
+* Immediate Debugging
+* Seamless Github Integration
+* Automatic Branch Tracking
+* Pull-Request Integration
+* Reliable Deployments
+* Stage History
 
 ### Getting Started with SnapCI
 #### Sign up 
@@ -21,7 +24,7 @@ When you sign in, GitHub will ask if you want to give a set of permissions to Sn
 #### Configuring Build 
 When you select a repository to build on Snap, we will attempt to automatically detect some popular configurations for your build. We look for languages versions, build tools files, dependency managers and other conventions that may indicate how your build could be set up.
 
-A sample [Hello-World]() nodejs app which displays Hello World is created. The [test file]() consists of simple test cases. Testing is done using mocha. The pipeline run the test cases and passes or fails depending on the test results.
+A sample [Hello-World](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk/blob/master/app.js) nodejs app which displays Hello World is created. The [test file](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk/blob/master/test/test.js) consists of simple test cases. Testing is done using mocha. The pipeline run the test cases and passes or fails depending on the test results.
 
 Below are the steps to configure for a nodejs app. The pipeline consists of 2 stages - Testing and Deployment.
 
@@ -38,7 +41,20 @@ npm test
 
 ![Deploy](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk/blob/master/Images/deploy.JPG)
 
+### Comparison with Jenkins
+|             Jenkins                               |                    Snap CI                        |
+|---------------------------------------------------| --------------------------------------------------- 
+| Hosted internally                                 |               Cloud Based                         |      
+| Free open source                                  |               Free for 30 days                    |
+| Great to build, deploy or launch anything async   |     Easy Installations and  simple management |
+| Rich set of plugins with good documentation       |           Automatic Github branch tracking
+| Tons of integrations                              |         Integration with Github, Heroku, AWS|
+| Has support for build pipelines                   |       Multi Stage Pipelines|
+| Open source and tons of integrations              |    Debugging mode while building and deployment|
 
-Screencast 
-[Link](https://drive.google.com/file/d/0B4s9cWAWOC29bWZtd1gwQUYyWWc/view?usp=sharing)
-
+### Limitations 
+* Not open source.
+* Easy to use but less integration capabilities than Jenkins
+* Only integrated with Github.
+* Deployment limited to AWS and Heroku.
+* No IDE Plugins available.
