@@ -6,12 +6,19 @@
     "express": "^4.13.3",
     "request": "^2.65.0"
   },
-  "devDependencies": {
-    "jasmine-node": "^1.14.5"
-  },
+  "devDependencies": {},
   "scripts": {
-    "test": "jasmine-node spec"
+    "test": "mocha"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "*YOUR GITHUB URL*"
+  },
+  "bugs": {
+    "url": "*YOUR GITHUB URL*/issues"
+  },
+  "homepage": "*YOUR GITHUB URL*#readme",
+  "description": ""
 }
